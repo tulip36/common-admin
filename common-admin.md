@@ -2,9 +2,12 @@
 
 ### 1. 功能说明
 
-<details id="repo-meta-edit" class="Details-element details-reset js-dropdown-details " style="box-sizing: border-box; display: block; color: rgb(36, 41, 46); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;"><summary class="d-block" style="box-sizing: border-box; display: block !important; cursor: pointer; list-style: none;"><div class="Details-content--closed f4" style="box-sizing: border-box; font-size: 16px !important;"><div class="d-flex flex-items-start" style="box-sizing: border-box; align-items: flex-start !important; display: flex !important;"><span class="flex-auto mb-2" style="box-sizing: border-box; flex: 1 1 auto !important; margin-bottom: 8px !important;"><div class="f4" style="box-sizing: border-box; font-size: 16px !important;"><span class="text-gray-dark mr-2" itemprop="about" style="box-sizing: border-box; color: rgb(36, 41, 46) !important; margin-right: 8px !important;">后台管理（Springboot+shiro+freemarker+mysql）。拥有基础的菜单管理、用户管理、角色管理等，菜单管理动态生成菜单、权限内容，开发者可以直接拿来使用。项目结构清晰、通俗易懂，是做一个后台管理系统的最佳选择，同时也可以作为任何系统的基础脚手架。</span></div></span><span class="btn btn-sm" style="box-sizing: border-box; position: relative; display: inline-block; padding: 3px 10px; font-size: 12px; font-weight: 600; line-height: 20px; white-space: nowrap; vertical-align: middle; cursor: pointer; user-select: none; background-repeat: repeat-x; background-position: -1px -1px; background-size: 110% 110%; border: 1px solid rgba(27, 31, 35, 0.2); border-radius: 0.25em; -webkit-appearance: none; color: rgb(36, 41, 46); background-color: rgb(239, 243, 246); background-image: linear-gradient(-180deg, rgb(250, 251, 252), rgb(239, 243, 246) 90%);">Edit</span></div></div></summary></details>
 
+网址： https://github.com/tulip36/common-admin
 
+后台管理（Springboot+shiro+freemarker+mysql）。拥有基础的菜单管理、用户管理、角色管理等，菜单管理动态生成菜单、权限内容，开发者可以直接拿来使用。项目结构清晰、通俗易懂，是做一个后台管理系统的最佳选择，同时也可以作为任何系统的基础脚手架。
+
+### 
 
 https://github.com/tulip36/common-admin
 
@@ -81,4 +84,11 @@ https://github.com/tulip36/common-admin
 
   ### 3. 登录密码是super, 123456
 
-  
+  ### 4. 在src/main/resource/application.properties里，修改数据源的设置
+
+```
+spring.datasource.type=com.alibaba.druid.pool.DruidDataSource
+spring.datasource.url=jdbc:mysql://localhost:3306/common_admin?characterEncoding=utf-8
+spring.datasource.username=root
+spring.datasource.password=root
+```
